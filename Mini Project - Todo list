@@ -1,0 +1,11 @@
+let todoList = ["Buy milk", "Study JS", "Go for walk"];
+
+console.log("Todo List:", todoList);
+
+// Add a new task
+todoList.push("Learn React");
+console.log("After adding task:", todoList);
+
+// Remove last task
+todoList.pop();
+console.log("After completing last task:", todoList);
